@@ -1,0 +1,10 @@
+Animation GridFill
+{
+	texture=GridFillAnimation
+	rect=0,0,48,48
+	frames=8
+	fps=3.0
+	mode=FORWARD,NOLOOP
+	blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+	resgroup=1
+}

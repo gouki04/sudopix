@@ -1,0 +1,83 @@
+Include "textures.hgeres"
+
+Sprite BG
+{
+    texture=StartBG
+    rect=0,0,500,700
+    blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+Sprite GameBG
+{
+    texture=BG
+    rect=0,0,64,64
+    blendmode=COLORMUL,ALPHABLEND,NOZWRITE
+}
+
+Sprite Cursor
+{
+    texture=Cursor
+    rect=0,0,32,32
+    zorder=1
+}
+
+Sprite GridNone
+{
+	texture=GridNone
+    rect=0,0,60,60
+    zorder=0.9
+}
+
+Sprite GridFill
+{
+	texture=GridFill
+    rect=0,0,60,60
+    zorder=0.9
+}
+
+Sprite GridCross
+{
+	texture=GridCross
+    rect=0,0,60,60
+    zorder=0.9
+}
+
+Sprite GridHighlight
+{
+	texture=GridHighlight
+    rect=0,0,60,60
+    zorder=0.95
+}
+
+Sprite Blank
+{
+	texture = Blank
+	rect = 0,0,4,4
+}
+
+Sprite NumberTipH
+{
+	texture = NumberTipH
+	rect = 0,0,48,48
+	color = FF00FF00
+}
+
+Sprite NumberTipV
+{
+	texture = NumberTipV
+	rect = 0,0,48,48
+	color = FF00FF00
+}
+
+Sprite White
+{
+	texture = White
+	rect = 0,0,60,60
+}
+
+Sprite Clock
+{
+	texture = Clock
+	rect = 0,0,100,100
+	hotspot = 50,50
+}

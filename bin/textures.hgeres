@@ -1,0 +1,82 @@
+Texture BG
+{
+    filename="resources\bg.png"
+    resgroup=1
+}
+
+Texture StartBG
+{
+    filename="resources\µþÏä×Ó.png"
+    resgroup=1
+}
+
+Texture Cursor
+{
+    filename="resources\cursor.png"
+    resgroup=1
+}
+
+Texture MyGUICursor
+{
+    filename="resources\core_pointer.png"
+    resgroup=1
+}
+
+Texture Blank
+{
+	filename = "resources\blank.png"
+}
+
+Texture GridNone
+{
+    filename="resources\none_grid.png"
+    resgroup=1
+}
+
+Texture GridFill
+{
+    filename="resources\fill_grid.png"
+    resgroup=1
+}
+
+Texture GridCross
+{
+    filename="resources\cross_grid.png"
+    resgroup=1
+}
+
+Texture GridHighlight
+{
+    filename="resources\highlight_grid.png"
+    resgroup=1
+}
+
+Texture GridFillAnimation
+{
+    filename="resources\fill_ainmation.png"
+    resgroup=1
+}
+
+Texture NumberTipH
+{
+    filename="resources\number_tip.png"
+    resgroup=1
+}
+
+Texture NumberTipV
+{
+    filename="resources\number_tip_v.png"
+    resgroup=1
+}
+
+Texture White
+{
+    filename="resources\white.png"
+    resgroup=1
+}
+
+Texture Clock
+{
+    filename="resources\clock.png"
+    resgroup=1
+}

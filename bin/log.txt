@@ -1,0 +1,23 @@
+HGE Started..
+
+HGE version: 1.80
+Date: 20.04.2011, 22:53:03
+
+Application: Sudo Pix
+OS: Windows 6.1.7600
+Memory: 2019896K total, 1142252K free
+
+D3D Driver: atiu9pag.dll
+Description: ATI Mobility Radeon HD 4500 Series 
+Version: 8.14.1.6095
+Can't find appropriate full screen video mode
+Mode: 500 x 500 x UNKNOWN
+
+Sound Device: ÑïÉùÆ÷ (Realtek High Definition Audio)
+Sample rate: 44100
+
+Init done.
+
+
+Finishing..
+The End.

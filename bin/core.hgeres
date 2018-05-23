@@ -1,0 +1,4 @@
+Include "sprites.hgeres"
+Include "font.hgeres"
+Include "sound.hgeres"
+Include "animation.hgeres"

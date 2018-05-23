@@ -1,0 +1,37 @@
+Font Button
+{
+	filename="resources\five_minute.fnt"
+}
+
+Font Text
+{
+	filename="resources\five_minute.fnt"
+}
+
+Font Number
+{
+	filename="resources\consolas.fnt"
+	color=FFFFD000
+}
+
+Font ClockNumber
+{
+	filename="resources\consolas.fnt"
+	color=FF000000
+}
+
+Font Title
+{
+	filename="resources\Terminal.fnt"
+	scale=2
+	spacing=10
+	color=FFFFFF00
+}
+
+Font LittleNumber
+{
+	filename="resources\Terminal.fnt"
+	scale=0.3
+	color=FFFF0000
+	zorder=0.99
+}

@@ -1,0 +1,4 @@
+Sound MenuSound
+{
+	filename="resources\menu.wav"
+}

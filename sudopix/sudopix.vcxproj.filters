@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="配置文件">
+      <UniqueIdentifier>{cd1eb6dc-75e9-41ac-8e08-cfcdc181ae9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面">
+      <UniqueIdentifier>{3d7e9e42-6bfa-443f-a7af-803cd9e5fdcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理器">
+      <UniqueIdentifier>{f1f214da-5b8d-4dde-9f6c-40afda5072b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工具">
+      <UniqueIdentifier>{51dabad2-2956-4bb6-b70d-3add74a782bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="日志文件">
+      <UniqueIdentifier>{0db37a96-b0bf-4843-9e0d-63b91ac697f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏">
+      <UniqueIdentifier>{3792cd0e-c15e-4d3f-b72b-dc08a3a9fbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="类图">
+      <UniqueIdentifier>{54e4f71a-6f3d-468a-9346-93f76275c56e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayScreen.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameScreen.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="menuitem.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreenMgr.cpp">
+      <Filter>管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMath.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficuty.cpp">
+      <Filter>游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="Sudopix.cpp">
+      <Filter>游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberTipLine.cpp">
+      <Filter>游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMgr.cpp">
+      <Filter>管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScreen.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinScreen.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoseScreen.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayScreen.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameScreen.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="menuitem.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreenMgr.h">
+      <Filter>管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="commonType.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMath.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficuty.h">
+      <Filter>游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="Sudopix.h">
+      <Filter>游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberTipLine.h">
+      <Filter>游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMgr.h">
+      <Filter>管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScreen.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinScreen.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoseScreen.h">
+      <Filter>界面</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\animation.hgeres">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\bin\core.hgeres">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\bin\font.hgeres">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\bin\sound.hgeres">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\bin\sprites.hgeres">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\bin\textures.hgeres">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\bin\config.ini">
+      <Filter>配置文件</Filter>
+    </None>
+    <None Include="..\bin\Game.log">
+      <Filter>日志文件</Filter>
+    </None>
+    <None Include="..\bin\sudopixs.txt">
+      <Filter>配置文件</Filter>
+    </None>
+    <None Include="..\Doc\All.cd">
+      <Filter>类图</Filter>
+    </None>
+    <None Include="..\Doc\Game.cd">
+      <Filter>类图</Filter>
+    </None>
+    <None Include="..\Doc\GameScreen.cd">
+      <Filter>类图</Filter>
+    </None>
+  </ItemGroup>
+</Project>

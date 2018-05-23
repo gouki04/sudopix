@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SudoPix::CGame" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAJAAAAIAAkAEQABCEAAQEQgIABEAAIAAAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="hge" />
+      <Field Name="viewPort" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SudoPix::CInputMgr">
+    <Position X="16" Y="4" Width="2.25" />
+    <AssociationLine Name="prevState" Type="hgeInputEvent" FixedToPoint="true">
+      <Path>
+        <Point X="18.25" Y="5.755" />
+        <Point X="19.5" Y="5.755" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.037" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="curState" Type="hgeInputEvent">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.084" Y="0.008" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAQAAAAAAAAAoABAIAAIAAAgEACEAgA=</HashCode>
+      <FileName>InputMgr.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="prevState" />
+      <Field Name="curState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SudoPix::CGameScreenMgr">
+    <Position X="7.5" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>wAAABCAAAAABCAkABAAwAAAIAAAAAIQQQAAgAAA0AAA=</HashCode>
+      <FileName>GameScreenMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SudoPix::CDifficuty" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAIAAQAAAAAAAABEgAAAAhAgCIABAgA=</HashCode>
+      <FileName>Difficuty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HGE" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>VDCJLxB7AQIlQQwYKCADoAYVWiFGcFFzsHSgPhQAUQE=</HashCode>
+      <FileName>c:\hge\include\hge.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SudoPix::IGameScreen">
+    <Position X="12" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAIAAQAAAIAEAAAAAQCDAAAAAYQAgAGAAYcBAA=</HashCode>
+      <FileName>IGameScreen.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="screenState" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="hgeInputEvent">
+    <Position X="19.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAACBAAAAAABgEAAAAAQ=</HashCode>
+      <FileName>c:\hge\include\hge.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Point" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>commonType.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ScreenList" Collapsed="true">
+    <Position X="12" Y="5.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>commonType.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="SudoPix::EScreenState">
+    <Position X="15.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAgAAAIAAAEAAA=</HashCode>
+      <FileName>IGameScreen.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
